@@ -1,3 +1,7 @@
+
+<img width="124" height="124" alt="logo copy 2" src="https://github.com/user-attachments/assets/607ce3b0-46cb-468a-916f-652e466eb24e" />
+
+
 🌍 Wanderlust Journeys – Your Passport to Unforgettable Travel
 
 Live demo [ https://aqsak-dev99.github.io/aqsa-web-design/
@@ -19,13 +23,21 @@ Ideal for:
 
 🚀 Features
 Feature	Description
+
 🌐 Pixel-Perfect Responsive Design	Flawless on mobile, tablet, and desktop
+
 🗺️ Interactive Destination Cards	“Read Guide” buttons open rich modal itineraries
+
 🖼️ Full-Screen Photo Galleries	Immersive Bootstrap carousel galleries
+
 💰 Curated Travel Packages	Three-tier pricing with strong CTAs
+
 📬 Email Capture Form	Ready for Start Bootstrap Forms or Mailchimp
+
 ⚡ SEO-Optimized	Clean semantics, meta tags, and fast load times
+
 🧩 Zero JavaScript Bloat	Only Bootstrap bundle — no extra libraries
+
 🎨 Design & UX Highlights
 
 🏞 Hero section with bold CTA – immediate emotional impact
@@ -67,15 +79,28 @@ Add or remove sections – all modular and Bootstrap-based
 
 💎 Why This Project Stands Out
 
+
 ✅ Ready-to-launch MVP for any travel or lifestyle brand
+
 ✅ High-quality UX/UI – perfect for portfolio or client showcase
+
 ✅ Fully responsive and optimized for performance
+
 ✅ Lightweight, minimal dependencies, easy to maintain
 
 📸 Preview
 
-(Optional: add a screenshot here)
-Example:
+<img width="773" height="513" alt="Screenshot 2025-10-29 at 5 58 10 AM" src="https://github.com/user-attachments/assets/f2c59cf3-9d8c-43fa-a858-ddc7198c1c18" />
+
+<img width="773" height="513" alt="Screenshot 2025-10-29 at 6 01 07 AM" src="https://github.com/user-attachments/assets/134ab513-a7e3-46eb-a6e2-f8bbaafbb18d" />
+
+
+<img width="773" height="513" alt="Screenshot 2025-10-29 at 5 58 27 AM" src="https://github.com/user-attachments/assets/c1bae38b-ff0f-4f30-98a7-7f52902a8239" />
+
+
+<img width="773" height="513" alt="Screenshot 2025-10-29 at 5 58 34 AM" src="https://github.com/user-attachments/assets/b49c6af6-3fa3-4ee8-bd34-6f3b2caaf808" />
+
+
 
 
 🧾 License
