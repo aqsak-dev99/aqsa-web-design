@@ -3,23 +3,43 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Welcome - To my portfolio web design</title>
+        <meta name="description" content="Explore the world with Wanderlust Journeys – your guide to breathtaking destinations, travel tips, and curated adventures." />
+        <meta name="author" content="Wanderlust Journeys" />
+        <title>Wanderlust Journeys - Explore the World</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
+        <!-- Font Awesome icons -->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
+        <!-- Google fonts -->
         <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet" />
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
-        <!-- Core theme CSS (includes Bootstrap)-->
+        <!-- Core theme CSS (includes Bootstrap) -->
         <link href="css/styles.css" rel="stylesheet" />
+        <style>
+            .modal-header {
+                background: linear-gradient(135deg, #1e3c72, #2a5298);
+                color: white;
+            }
+            .modal-body img {
+                border-radius: 8px;
+                margin-bottom: 1rem;
+            }
+            .highlight-badge {
+                background: #0d0d0d;
+                color: white;
+                padding: 0.25rem 0.75rem;
+                border-radius: 50px;
+                font-size: 0.8rem;
+                margin-right: 0.5rem;
+                margin-bottom: 0.5rem;
+                display: inline-block;
+            }
+        </style>
     </head>
     <body id="page-top">
-        <!-- Navigation-->
+        <!-- Navigation -->
         <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
             <div class="container px-4 px-lg-5">
-                <a class="navbar-brand" href="#page-top">Aqsa Dev Works</a>
+                <a class="navbar-brand" href="#page-top">Wanderlust Journeys</a>
                 <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -27,76 +47,126 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#destinations">Destinations</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#packages">Packages</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <!-- Masthead-->
+
+        <!-- Masthead -->
         <header class="masthead">
             <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
-                        <h1 class="mx-auto my-0 text-uppercase"> Welcome </h1>
-                        <h2 class="text-white-50 mx-auto mt-2 mb-5"> To my web design I create modern, responsive, and user-friendly websites that bring your ideas to life.</h2>
-                        <a class="btn btn-primary" href="#about">Get Started</a>
+                        <h1 class="mx-auto my-0 text-uppercase">Discover the World</h1>
+                        <h2 class="text-white-50 mx-auto mt-2 mb-5">
+                            From hidden mountain trails to vibrant city streets — let’s make your next adventure unforgettable.
+                        </h2>
+                        <a class="btn btn-primary" href="#about">Start Exploring</a>
                     </div>
                 </div>
             </div>
         </header>
-        <!-- About-->
+
+        <!-- About -->
         <section class="about-section text-center" id="about">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5 justify-content-center">
                     <div class="col-lg-8">
-                        <h2 class="text-white mb-4">About us</h2>
+                        <h2 class="text-white mb-4">Hey, I'm Alex — Your Travel Storyteller</h2>
                         <p class="text-white-50">
-                             At Aqsa Web Design, I specialize in crafting sleek, functional, and professional websites. 
-                             This sample project demonstrates how templates can be customized with unique branding, 
-                             images, and content to create a personalized digital presence.
+                            I’ve been chasing sunsets across <strong>30+ countries</strong> — from hiking the Inca Trail to sipping coffee in Tokyo’s back alleys. 
+                            Through <strong>Wanderlust Journeys</strong>, I share real stories, insider tips, and handcrafted travel itineraries. 
+                            Whether you're a solo backpacker or planning a family escape, I help you travel deeper, smarter, and happier.
                         </p>
                     </div>
                 </div>
-                <img class="img-fluid" src="assets/img/ipad.png" alt="..." />
+                <img class="img-fluid mt-5" src="assets/img/travel-map.jpg" alt="World map with travel pins" />
             </div>
         </section>
-        <!-- Projects-->
-        <section class="projects-section bg-light" id="projects">
+
+        <!-- Destinations Explored -->
+        <section class="projects-section bg-light" id="destinations">
             <div class="container px-4 px-lg-5">
-                <!-- Featured Project Row-->
-                <div class="row gx-0 mb-4 mb-lg-5 align-items-center">
-                    <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/bg-masthead.jpg" alt="..." /></div>
-                    <div class="col-xl-4 col-lg-5">
-                        <div class="featured-text text-center text-lg-left">
-                            <h4>Portfolio website</h4>
-                            <p class="text-black-50 mb-0">I can include advanced features such as interactive galleries, downloadable resumes and integrated blogs to showcase expertise. They can be customized with animations, dark mode or personal branding to match the individuals style.</p>
-                        </div>
-                    </div>
+                <div class="text-center mb-5">
+                    <h2>Destinations I've Explored</h2>
+                    <p class="lead text-muted">Handpicked adventures from my travels</p>
                 </div>
-                <!-- Project One Row-->
+
+                <!-- Destination 1: Santorini -->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-01.jpg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid" 
+                             src="assets/img/santorini.jpg" 
+                             alt="Santorini Sunset" 
+                             style="object-fit: cover; width: 100%; height: 100%; max-height: 400px;" />
+                    </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Business webstie</h4>
-                                    <p class="mb-0 text-white-50">It can be expanded with service pages, client testimonials, pricing sections and contact forms. They can also include e-commerce functionality, booking systems or chat support depending on the companys needs.</p>
+                                <div class="project-text w-100 my-auto text-center text-lg-left text-white p-4">
+                                    <h4>Santorini, Greece</h4>
+                                    <p class="mb-0">Whitewashed villages, blue domes, and sunsets that stop time. A 5-day guide to romance and relaxation.</p>
+                                    <div class="mt-3">
+                                        <button type="button" class="btn btn-sm btn-primary me-2" data-bs-toggle="modal" data-bs-target="#santoriniModal">
+                                            Read Guide
+                                        </button>
+<button type="button" class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#santoriniGallery">View Photos</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- Project Two Row-->
-                <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/img/demo-image-02.jpg" alt="..." /></div>
+
+                <!-- Destination 2: Kyoto -->
+                <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
                     <div class="col-lg-6 order-lg-first">
+                        <img class="img-fluid" 
+                             src="assets/img/kyoto.jpg" 
+                             alt="Kyoto Temple" 
+                             style="object-fit: cover; width: 100%; height: 100%; max-height: 400px;" />
+                    </div>
+                    <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
-                                <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Services</h4>
-                                    <p class="mb-0 text-white-50">Every website can be tailored according to the clients requirements — whether its a simple showcase or a fully functional platform with custom features.!</p>
+                                <div class="project-text w-100 my-auto text-center text-lg-right text-white p-4">
+                                    <h4>Kyoto, Japan</h4>
+                                    <p class="mb-0">Bamboo forests, ancient temples, and matcha in hidden teahouses. A cultural deep dive.</p>
+                                    <div class="mt-3">
+                                        <button type="button" class="btn btn-sm btn-primary me-2" data-bs-toggle="modal" data-bs-target="#kyotoModal">
+                                            Read Guide
+                                        </button>
+                                        <button type="button" class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#kyotoGallery">View Photos</button>           
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Destination 3: Patagonia -->
+                <div class="row gx-0 justify-content-center">
+                    <div class="col-lg-6">
+                        <img class="img-fluid" 
+                             src="assets/img/patagonia.jpg" 
+                             alt="Patagonia Trek" 
+                             style="object-fit: cover; width: 100%; height: 100%; max-height: 400px;" />
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="bg-black text-center h-100 project">
+                            <div class="d-flex h-100">
+                                <div class="project-text w-100 my-auto text-center text-lg-left text-white p-4">
+                                    <h4>Patagonia, Chile & Argentina</h4>
+                                    <p class="mb-0">Glaciers, turquoise lakes, and epic treks. A 10-day adventure for the bold.</p>
+                                    <div class="mt-3">
+                                        <button type="button" class="btn btn-sm btn-primary me-2" data-bs-toggle="modal" data-bs-target="#patagoniaModal">
+                                            Read Guide
+                                        </button>
+<button type="button" class="btn btn-sm btn-outline-light" data-bs-toggle="modal" data-bs-target="#patagoniaGallery">View Photos</button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -104,51 +174,307 @@
                 </div>
             </div>
         </section>
-        <!-- Signup-->
+
+        <!-- MODALS GO HERE -->
+
+        <!-- Santorini Modal -->
+        <div class="modal fade" id="santoriniModal" tabindex="-1" aria-labelledby="santoriniModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="santoriniModalLabel">Santorini, Greece: 5-Day Romantic Escape</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/santorini.jpg" class="img-fluid" alt="Santorini Caldera">
+                        <p><strong>Best time:</strong> May–June or September–October</p>
+                        <p>Experience the iconic white cliffs, volcanic beaches, and legendary sunsets of Oia. This itinerary blends relaxation, culture, and adventure.</p>
+                        <h6>Highlights:</h6>
+                        <span class="highlight-badge">Sunset in Oia</span>
+                        <span class="highlight-badge">Wine Tasting</span>
+                        <span class="highlight-badge">Boat Tour</span>
+                        <span class="highlight-badge">Black Sand Beach</span>
+                        <span class="highlight-badge">Hiking Caldera</span>
+                        <h6 class="mt-3">Day-by-Day:</h6>
+                        <ul>
+                            <li><strong>Day 1:</strong> Arrive in Fira, explore shops, sunset dinner</li>
+                            <li><strong>Day 2:</strong> Oia sunrise, photography walk, local winery</li>
+                            <li><strong>Day 3:</strong> Catamaran cruise with snorkeling & BBQ</li>
+                            <li><strong>Day 4:</strong> Red Beach, Akrotiri ruins, relax</li>
+                            <li><strong>Day 5:</strong> Free morning, depart</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="#packages" class="btn btn-primary">Book This Trip</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kyoto Modal -->
+        <div class="modal fade" id="kyotoModal" tabindex="-1" aria-labelledby="kyotoModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="kyotoModalLabel">Kyoto, Japan: 7-Day Cultural Journey</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/kyoto.jpg" class="img-fluid" alt="Fushimi Inari">
+                        <p><strong>Best time:</strong> Spring (Cherry Blossoms) or Autumn (Red Maples)</p>
+                        <p>Step into Japan’s soul: 17 UNESCO sites, zen gardens, and tea ceremonies. Slow travel at its finest.</p>
+                        <h6>Highlights:</h6>
+                        <span class="highlight-badge">Fushimi Inari</span>
+                        <span class="highlight-badge">Arashiyama Bamboo</span>
+                        <span class="highlight-badge">Tea Ceremony</span>
+                        <span class="highlight-badge">Geisha District</span>
+                        <span class="highlight-badge">Kinkaku-ji</span>
+                        <h6 class="mt-3">Includes:</h6>
+                        <ul>
+                            <li>JR Pass for temples</li>
+                            <li>Private tea master class</li>
+                            <li>Kimono rental & photoshoot</li>
+                            <li>Local family homestay dinner</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="#packages" class="btn btn-primary">Book This Trip</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Patagonia Modal -->
+        <div class="modal fade" id="patagoniaModal" tabindex="-1" aria-labelledby="patagoniaModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-scrollable">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="patagoniaModalLabel">Patagonia: 10-Day Trekking Expedition</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <img src="assets/img/patagonia.jpg" class="img-fluid" alt="Torres del Paine">
+                        <p><strong>Best time:</strong> December–March (Summer)</p>
+                        <p>For the adventurous: hike the W Trek, camp under star-filled skies, and witness glaciers calving into emerald lakes.</p>
+                        <h6>Highlights:</h6>
+                        <span class="highlight-badge">Torres del Paine</span>
+                        <span class="highlight-badge">Glacier Grey</span>
+                        <span class="highlight-badge">W Trek</span>
+                        <span class="highlight-badge">Wildlife</span>
+                        <span class="highlight-badge">Camping</span>
+                        <h6 class="mt-3">Gear Included:</h6>
+                        <ul>
+                            <li>Tent, sleeping bag, trekking poles</li>
+                            <li>Professional mountain guide</li>
+                            <li>All park permits & transport</li>
+                            <li>3 meals/day on trek</li>
+                        </ul>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <a href="#packages" class="btn btn-primary">Book This Trip</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+                <!-- PHOTO GALLERY MODALS -->
+
+        <!-- Santorini Gallery -->
+        <div class="modal fade" id="santoriniGallery" tabindex="-1" aria-labelledby="santoriniGalleryLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="santoriniGalleryLabel">Santorini Photo Gallery</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <div id="santoriniCarousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/santorini1.jpg" class="d-block w-100" alt="Oia Sunset" style="height: 70vh; object-fit: cover;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/santorini2.jpg" class="d-block w-100" alt="Blue Domes" style="height: 70vh; object-fit: cover;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/santorini3.jpg" class="d-block w-100" alt="Caldera View" style="height: 70vh; object-fit: cover;">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#santoriniCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#santoriniCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Kyoto Gallery -->
+        <div class="modal fade" id="kyotoGallery" tabindex="-1" aria-labelledby="kyotoGalleryLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="kyotoGalleryLabel">Kyoto Photo Gallery</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <div id="kyotoCarousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/kyoto1.jpg" class="d-block w-100" alt="Fushimi Inari" style="height: 70vh; object-fit: cover;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kyoto2.jpg" class="d-block w-100" alt="Bamboo Forest" style="height: 70vh; object-fit: cover;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/kyoto3.jpg" class="d-block w-100" alt="Golden Pavilion" style="height: 70vh; object-fit: cover;">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#kyotoCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#kyotoCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Patagonia Gallery -->
+        <div class="modal fade" id="patagoniaGallery" tabindex="-1" aria-labelledby="patagoniaGalleryLabel" aria-hidden="true">
+            <div class="modal-dialog modal-xl modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="patagoniaGalleryLabel">Patagonia Photo Gallery</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body p-0">
+                        <div id="patagoniaCarousel" class="carousel slide">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="assets/img/patagonia1.jpg" class="d-block w-100" alt="Torres del Paine" style="height: 70vh; object-fit: cover;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/patagonia2.jpg" class="d-block w-100" alt="Glacier Grey" style="height: 70vh; object-fit: cover;">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="assets/img/patagonia3.jpg" class="d-block w-100" alt="Fitz Roy" style="height: 70vh; object-fit: cover;">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#patagoniaCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#patagoniaCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon"></span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Travel Packages -->
+        <section class="services-section bg-light py-5" id="packages">
+            <div class="container px-4 px-lg-5">
+                <h2 class="text-center mb-5">Curated Travel Packages</h2>
+                <div class="row gx-4 gx-lg-5">
+                    <!-- [Same packages as before] -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center border-0 shadow">
+                            <div class="card-body">
+                                <h4 class="card-title">Weekend Escape</h4>
+                                <h3 class="display-5 fw-bold">$499</h3>
+                                <ul class="list-unstyled text-start mx-auto" style="max-width: 220px;">
+                                    <li>2 Nights + Activities</li>
+                                    <li>Local Guide</li>
+                                    <li>Breakfast Included</li>
+                                    <li>Perfect for Couples</li>
+                                </ul>
+                                <a href="#signup" class="btn btn-primary mt-3">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center border-0 shadow">
+                            <div class="card-body">
+                                <h4 class="card-title">Cultural Immersion</h4>
+                                <h3 class="display-5 fw-bold">$1,299</h3>
+                                <ul class="list-unstyled text-start mx-auto" style="max-width: 220px;">
+                                    <li>7-Day Itinerary</li>
+                                    <li>Homestay + Workshops</li>
+                                    <li>All Meals Included</li>
+                                    <li>Small Group (6 max)</li>
+                                </ul>
+                                <a href="#signup" class="btn btn-primary mt-3">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center border-0 shadow">
+                            <div class="card-body">
+                                <h4 class="card-title">Epic Expedition</h4>
+                                <h3 class="display-5 fw-bold">$2,999</h3>
+                                <ul class="list-unstyled text-start mx-auto" style="max-width: 220px;">
+                                    <li>12-Day Adventure</li>
+                                    <li>Trekking + Camping</li>
+                                    <li>Pro Guides + Gear</li>
+                                    <li>Lifetime Memories</li>
+                                </ul>
+                                <a href="#signup" class="btn btn-primary mt-3">Book Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Signup -->
         <section class="signup-section" id="signup">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-md-10 col-lg-8 mx-auto text-center">
-                        <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-                        <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
+                        <i class="fas fa-plane-departure fa-2x mb-2 text-white"></i>
+                        <h2 class="text-white mb-5">Get Travel Updates & Exclusive Deals!</h2>
                         <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
                             <div class="row input-group-newsletter">
-                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter email address..." aria-label="Enter email address..." data-sb-validations="required,email" /></div>
-                                <div class="col-auto"><button class="btn btn-primary disabled" id="submitButton" type="submit">Notify Me!</button></div>
+                                <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Enter your email..." aria-label="Enter email..." data-sb-validations="required,email" /></div>
+                                <div class="col-auto"><button class="btn btn-primary" id="submitButton" type="submit">Subscribe</button></div>
                             </div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:required">An email is required.</div>
                             <div class="invalid-feedback mt-2" data-sb-feedback="emailAddress:email">Email is not valid.</div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
                             <div class="d-none" id="submitSuccessMessage">
                                 <div class="text-center mb-3 mt-2 text-white">
-                                    <div class="fw-bolder">Form submission successful!</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                                    <div class="fw-bolder">You're all set!</div>
+                                    Check your inbox for travel inspiration.
                                 </div>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3 mt-2">Error sending message!</div></div>
+                            <div class="d-none" id="submitErrorMessage">
+                                <div class="text-center text-danger mb-3 mt-2">Error sending message!</div>
+                            </div>
                         </form>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Contact-->
+
+        <!-- Testimonial -->
+        <section class="py-5 bg-light">
+            <div class="container px-4 px-lg-5 text-center">
+                <p class="lead">
+                    <em>"Alex planned our honeymoon in Greece — every detail was perfect. We felt like locals, not tourists!"</em><br>
+                    — <strong>Sarah & Mike, Newlyweds</strong>
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact -->
         <section class="contact-section bg-black">
             <div class="container px-4 px-lg-5">
                 <div class="row gx-4 gx-lg-5">
@@ -156,9 +482,9 @@
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Address</h4>
+                                <h4 class="text-uppercase m-0">Basecamp</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">Address can will be added here </div>
+                                <div class="small text-black-50">Bali, Indonesia (Currently)</div>
                             </div>
                         </div>
                     </div>
@@ -168,38 +494,53 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@example.com</a></div>
+                                <div class="small text-black-50"><a href="mailto:hello@wanderlustjourneys.com">hello@wanderlustjourneys.com</a></div>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4 mb-3 mb-md-0">
                         <div class="card py-4 h-100">
                             <div class="card-body text-center">
-                                <i class="fas fa-mobile-alt text-primary mb-2"></i>
-                                <h4 class="text-uppercase m-0">Phone</h4>
+                                <i class="fab fa-whatsapp text-primary mb-2"></i>
+                                <h4 class="text-uppercase m-0">Chat</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">0000-0000-000</div>
+                                <div class="small text-black-50">Message on WhatsApp</div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                <div class="social d-flex justify-content-center mt-4">
+                    <a class="mx-2" href="#!"><i class="fab fa-instagram"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-youtube"></i></a>
+                    <a class="mx-2" href="#!"><i class="fab fa-tiktok"></i></a>
                 </div>
             </div>
         </section>
-        <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; 2025 Aqsa Web Design. All rights reserved</div></footer>
-        <!-- Bootstrap core JS-->
+
+        <!-- Footer -->
+        <footer class="footer bg-black small text-center text-white-50">
+            <div class="container px-4 px-lg-5">
+                Copyright © 2025 Wanderlust Journeys. All rights reserved.
+            </div>
+        </footer>
+
+        <!-- Bootstrap core JS -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
+        <!-- Core theme JS -->
         <script src="js/scripts.js"></script>
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <!-- * *                               SB Forms JS                               * *-->
-        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
-    </body>
+        <!-- SB Forms JS --> 
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script>
+  // Fix for Bootstrap modal backdrop error
+  document.addEventListener('DOMContentLoaded', function () {
+    var modalElements = document.querySelectorAll('.modal');
+    modalElements.forEach(function (modalEl) {
+      new bootstrap.Modal(modalEl, {
+        backdrop: true,
+        keyboard: true
+      });
+    });
+  });
+</script>
+</body>
 </html>
